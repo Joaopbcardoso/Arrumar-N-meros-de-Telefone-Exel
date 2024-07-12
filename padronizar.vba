@@ -5,7 +5,7 @@ Sub PadronizarTelefones()
 
     Set ws = ThisWorkbook.Sheets("rd-http-v8brasil-com-br-convers") ' Alterar para o nome da sua planilha
 
-    For Each cell In ws.Range("L1:L" & ws.Cells(ws.Rows.Count, "L").End(xlUp).Row) 'Trocar as coordenadas da celula que precisa ser padronizada
+    For Each cell In ws.Range("L2:L" & ws.Cells(ws.Rows.Count, "L").End(xlUp).Row) 'Trocar as coordenadas da celula que precisa ser padronizada
         numero = cell.Value
         
         ' Remover espaços, hífens, parênteses e pontos
