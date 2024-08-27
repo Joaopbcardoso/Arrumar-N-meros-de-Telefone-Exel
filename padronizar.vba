@@ -9,7 +9,6 @@ Sub PadronizarTelefones()
         numero = cell.Value
         
         ' Remover espaços, hífens, parênteses e pontos
-        numero = Replace(numero, " ", "")
         numero = Replace(numero, "-", "")
         numero = Replace(numero, "(", "")
         numero = Replace(numero, ")", "")
